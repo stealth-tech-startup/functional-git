@@ -1,0 +1,23 @@
+{
+  "name": "functional-git",
+  "version": "1.0.0",
+  "description": "Functional test for git flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "jenkins-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/screwdriver-cd-test/functional-git.git"
+  },
+  "author": "Darren Matsumoto",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/screwdriver-cd-test/functional-git/issues"
+  },
+  "homepage": "https://github.com/screwdriver-cd-test/functional-git#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jenkins-mocha": "^3.0.4"
+  }
+}
